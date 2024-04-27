@@ -1,0 +1,216 @@
+.app {
+  align-content: center;
+  align-items: left;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 32px;
+  height: min-content;
+  justify-content: flex-start;
+  max-width: 1440px;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+#root {
+  position: relative;
+  display: block;
+  width: 1440px;
+  height: 1170px;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body:has(.light) {
+  background-color: #fff;
+}
+
+body:has(.dark) {
+  background-color: #1e2025;
+}
+
+
+
+.footerBar {
+  left: 0;
+  top: 0;
+  width: 1440px;
+  height: 4px;
+  background-color: #fe7139;
+}
+
+.hackerNewsFooter {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.light .hackerNewsFooter {
+  color: #000;
+}
+
+.dark .hackerNewsFooter {
+  color: #fff;
+}
+
+.hnlogo {
+  position: relative;
+  /* left: 0; */
+  /* top: 49px; */
+  width: 211.9844px;
+  height: 33px;
+  overflow: visible;
+  height: 33px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  /* flex-shrink: 0; */
+  text-decoration: none;
+  /* align-items: left; */
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.latestStarredHeader {
+  font-size: 14px;
+  font-family: Open Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: relative;
+  margin-left: 5em;
+
+  text-align: center;
+  vertical-align: center;
+  width: 100%;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: row;
+}
+
+.light .latestStarredHeader {
+  color: #000;
+}
+
+.dark .latestStarredHeader {
+  color: #fff;
+}
+
+
+.latestStarredFooter {
+
+  width: 100%;
+  text-align: center;
+  height: min-content;
+  white-space: nowrap;
+}
+
+.latestStarredFooter a {
+  margin: 2em;
+  font-size: 14px;
+  font-family: Open Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-decoration: none;
+}
+
+.light .latestStarredFooter a {
+  color: #000;
+}
+
+.dark .latestStarredFooter a {
+  color: #fff;
+}
+
+.header {
+  display: block;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.postLink {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Ubuntu Mono, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+}
+
+.light .postLink {
+  color: #000;
+}
+
+.dark .postLink {
+  color: #fff;
+}
+
+li div {
+  margin: 15px;
+  font-size: 10px;
+  font-family: Open Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+}
+
+.light li div {
+  color: #00000080;
+}
+
+.dark li div {
+  color: #ffffff80;
+}
+
+ol {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.dark ol {
+  color: #ffffff80;
+}
+
+.active {
+  color: #fe7139;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 800;
+  font-family: Open Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+}
+
+.inactive {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Open Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+}
+
+.light .inactive {
+  color: #000;
+}
+
+.dark .inactive {
+  color: #fff;
+  ;
+}
+
+.container {
+  margin: 90px;
+}
+
+.showMore {
+  background-color: #fe7139;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Open Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+}
+
+.darkModeToggle {
+  float: right;
+}
